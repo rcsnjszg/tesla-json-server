@@ -1,10 +1,76 @@
 {
-  "posts": [
-    { "id": 1, "title": "Lorem ipsum", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
-    { "id": 2, "title": "Sed et semper lectus", "content": "Nullam non quam et dui pharetra faucibus id vel libero."}
-  ],
-  "comments": [
-    { "id": 1, "text": "baz", "post_id": 1 },
-    { "id": 1, "text": "qux", "post_id": 2 }
+  "teslas": [
+    {
+      "id": 1,
+      "model": "Model S Performance",
+      "acceleration": "2.5",
+      "wltp": 639,
+      "seats": 5,
+      "img": "model-s.png"
+    },
+    {
+      "id": 2,
+      "model": "Model S Long Range Plus",
+      "acceleration": "3.8",
+      "wltp": 652,
+      "seats": 5,
+      "img": "model-s.png"
+    },
+    {
+      "id": 3,
+      "model": "Model 3 Performance",
+      "acceleration": "3.3",
+      "wltp": 567,
+      "seats": 5,
+      "img": "model-3.png"
+    },
+    {
+      "id": 4,
+      "model": "Model 3 Long Range",
+      "acceleration": "4.4",
+      "wltp": 580,
+      "seats": 5,
+      "img": "model-3.png"
+    },
+    {
+      "id": 5,
+      "model": "Model 3 Standard Plus",
+      "acceleration": "5.6",
+      "wltp": 430,
+      "seats": 5,
+      "img": "model-3.png"
+    },
+    {
+      "id": 6,
+      "model": "Model X Performance",
+      "acceleration": "2.8",
+      "wltp": 548,
+      "seats": 7,
+      "img": "model-x.png"
+    },
+    {
+      "id": 7,
+      "model": "Model X Long Range",
+      "acceleration": "4.6",
+      "wltp": 561,
+      "seats": 7,
+      "img": "model-x.png"
+    },
+    {
+      "id": 8,
+      "model": "Model Y Performance",
+      "acceleration": "3.7",
+      "wltp": 480,
+      "seats": 7,
+      "img": "model-y.png"
+    },
+    {
+      "id": 9,
+      "model": "Model Y Long Range AWD",
+      "acceleration": "5.1",
+      "wltp": 505,
+      "seats": 7,
+      "img": "model-y.png"
+    }
   ]
 }
