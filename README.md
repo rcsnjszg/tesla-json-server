@@ -5,7 +5,7 @@ A https://github.com/typicode/json-server dockerbe csomagolva és személyre sza
 # Futtatás
 
 ```bash
-docker run --name tesla-json-server -v $(pwd):/server -d --rm -p 8888:80 json-server
+docker run --name tesla-json-server -v $(pwd):/server -d --rm -p 8888:80 rcsnjszg/tesla-json-server
 ```
 
  - `-name`: a megadott nével lehet hivatkozni későbbiekben a konténerre
@@ -18,5 +18,5 @@ docker run --name tesla-json-server -v $(pwd):/server -d --rm -p 8888:80 json-se
 # Build
 
 ```
-docker build -t rcsnjszg/json-server .
+docker build -t rcsnjszg/tesla-json-server .
 ```
